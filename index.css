@@ -1,0 +1,29 @@
+* {
+    text-align: center;
+}
+body {
+    background-color: #75C9B7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #322E2F;
+}
+h1 {
+    color: #C8DECD;
+}
+nav, main {
+    background-color: #C7DDCC;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+}
+section {
+    background-color: #12A4D9;
+}
+article {
+    background-color: #D91494;
+}
+footer {
+    background-color: #E2D810;
+}
