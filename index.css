@@ -1,5 +1,6 @@
 * {
     text-align: center;
+    margin: 0;
 }
 body {
     background-color: #75C9B7;
@@ -7,23 +8,68 @@ body {
 }
 header {
     background-color: #322E2F;
+    padding: 5px;
 }
-h1 {
+header h1 {
     color: #C8DECD;
+    text-transform: uppercase;
+    margin: 10px; 
 }
 nav, main {
     background-color: #C7DDCC;
 }
+nav {
+    padding: 15px;
+}
 nav a {
     color: black;
     text-decoration: none;
+    margin: 10px;
+    margin: 15px;
+}
+main {
+    margin: 15px 0px;
+    padding: 1%;
+    height: 230px;
+}
+section, article {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 15
+    px;
+}
+h2 {
+    font-size: 30px;
 }
 section {
     background-color: #12A4D9;
+    float: left;
+    width: 74.5%;
+}
+section h2 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 26px;
+}
+.primer {
+    margin: 15px;
 }
 article {
     background-color: #D91494;
+    float: right;
+    width: 24.5%;
+}
+article h2 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+article p {
+    margin: 15px 0px;
+}
+#submit {
+    margin-top: 15px;
 }
 footer {
     background-color: #E2D810;
+    padding: 25px;
 }
