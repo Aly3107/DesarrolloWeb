@@ -1,0 +1,12 @@
+video{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+nav{
+    position: relative;
+}
